@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Pranith — reach out for collaborations, project ideas, or just to say hello." />
+  <meta name="keywords" content="contact Pranith, hire B.Tech student developer, web development collaboration" />
+  <meta name="author" content="Pranith" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Contact | Pranith" />
+  <meta property="og:description" content="Get in touch with Pranith." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://pranith.dev/contact" />
+  <title>Contact | Pranith</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="../index.html" class="nav-logo" aria-label="Pranith – Home">
+        <span aria-hidden="true">Portfoio</span>
+      </a>
+      <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <p class="page-eyebrow">Let's talk</p>
+        <h1 id="page-title" class="page-heading">Get in Touch</h1>
+      </div>
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-desc">
+      <div class="container contact-grid">
+
+        <aside class="contact-info" aria-labelledby="contact-info-heading">
+          <h2 id="contact-info-heading" class="contact-info-title">Open to Opportunities</h2>
+          <p>Whether you want to reach out to me, discuss about any opportunities, or just talk on tech — feel free to drop a message.</p>
+          <ul class="contact-links" role="list">
+            <li>
+              <a href="mailto:pranith@example.com" class="contact-item" aria-label="Send an email to pranith@example.com">
+                <span class="contact-item-icon" aria-hidden="true">✉</span>
+                <span>pranith@example.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/" class="contact-item" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in new tab)">
+                <span class="contact-item-icon" aria-hidden="true">⌨</span>
+                <span>github.com/pranith</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/" class="contact-item" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in new tab)">
+                <span class="contact-item-icon" aria-hidden="true">💼</span>
+                <span>linkedin.com/in/pranith</span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+
+        <div class="contact-form-wrapper">
+          <div role="status" id="form-status" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+
+          <form
+            id="contact-form"
+            class="contact-form"
+            novalidate
+            aria-labelledby="form-heading"
+          >
+            <h2 id="form-heading" class="sr-only">Send a message</h2>
+
+            <div class="form-group">
+              <label for="name" class="form-label">
+                Full Name <span aria-label="required" class="required-mark">*</span>
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                autocomplete="name"
+                required
+                aria-required="true"
+                aria-describedby="name-error"
+                placeholder="Your name"
+              />
+              <span id="name-error" class="form-error" role="alert" aria-live="assertive"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">
+                Email Address <span aria-label="required" class="required-mark">*</span>
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input"
+                autocomplete="email"
+                required
+                aria-required="true"
+                aria-describedby="email-error"
+                placeholder="you@example.com"
+              />
+              <span id="email-error" class="form-error" role="alert" aria-live="assertive"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="form-input"
+                placeholder="What's this about?"
+                aria-describedby="subject-hint"
+              />
+              <span id="subject-hint" class="form-hint">Optional — helps me respond faster.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">
+                Message <span aria-label="required" class="required-mark">*</span>
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-input form-textarea"
+                rows="5"
+                required
+                aria-required="true"
+                aria-describedby="message-error message-hint"
+                placeholder="Hi Pranith, I'd like to..."
+              ></textarea>
+              <span id="message-hint" class="form-hint">Minimum 20 characters.</span>
+              <span id="message-error" class="form-error" role="alert" aria-live="assertive"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-loading" aria-hidden="true" hidden>Sending…</span>
+            </button>
+          </form>
+
+          <div id="form-success" class="form-success" hidden role="alert" aria-live="polite">
+            <p>✅ Message sent! I'll get back to you soon.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">© <time datetime="2024">2024</time> Pranith · SR University</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-nav" role="list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>

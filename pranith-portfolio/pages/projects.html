@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects by Pranith — web development and AI/ML projects built during B.Tech at Vaagdevi College of Engineering." />
+  <meta name="keywords" content="Pranith projects, web development projects, machine learning projects, B.Tech student portfolio" />
+  <meta name="author" content="Pranith" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Projects | Pranith" />
+  <meta property="og:description" content="Web and AI projects by Pranith, B.Tech student at Vaagdevi College." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://pranith.dev/projects" />
+  <title>Projects | Pranith</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="../index.html" class="nav-logo" aria-label="Pranith – Home">
+        <span aria-hidden="true">Portfolio</span>
+      </a>
+      <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <p class="page-eyebrow">What I've built</p>
+        <h1 id="page-title" class="page-heading">Projects</h1>
+      </div>
+    </section>
+
+    <section class="projects-section" aria-labelledby="projects-list-heading">
+      <div class="container">
+        <h2 id="projects-list-heading" class="sr-only">All Projects</h2>
+
+        <div class="filter-bar" role="group" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" data-filter="research" aria-pressed="false">RESEARCH</button>
+          <button class="filter-btn" data-filter="ai" aria-pressed="false">AI / ML</button>
+          <button class="filter-btn" data-filter="web" aria-pressed="false">WEB</button>
+        </div>
+
+        <ul class="projects-list" role="list" aria-label="Project cards">
+
+          <li class="project-full-card" data-category="ai" role="listitem">
+            <article aria-labelledby="proj1-title">
+              <header class="pfc-header">
+                <div>
+                  <span class="pfc-tag">AI / ML</span>
+                  <h3 id="proj1-title" class="pfc-title">Resume Screening</h3>
+                </div>
+                <span class="pfc-year" aria-label="Year: 2024">2026</span>
+              </header>
+              <p class="pfc-desc">TalentSync AI is a browser-based AI recruitment platform that matches resumes to job listings using NLP, scoring compatibility 0–100% and tracking applications from submission to hiring.</p>
+              <footer class="pfc-footer">
+                <ul class="pfc-stack" aria-label="Technologies used" role="list">
+                  <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Anthropic Claude API</li>
+                </ul>
+                <a href="#" class="btn btn-sm" aria-label="View Resume Screening on GitHub (opens in new tab)" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              </footer>
+            </article>
+          </li>
+
+          <li class="project-full-card pfc-highlight" data-category="research" role="listitem">
+            <article aria-labelledby="proj2-title">
+              <header class="pfc-header">
+                <div>
+                  <span class="pfc-tag">Research</span>
+                  <h3 id="proj2-title" class="pfc-title">Road accident severity prediction research</h3>
+                </div>
+                <span class="pfc-year" aria-label="Year: 2024">2025</span>
+              </header>
+              <p class="pfc-desc">A machine learning system that predicts road accident severity and detects high-risk zones by analyzing location, time, weather, and vehicle data across Indian roads (2018–2023).</p>
+              <footer class="pfc-footer">
+                <ul class="pfc-stack" aria-label="Technologies used" role="list">
+                  <li>Python</li><li>SQL</li><li>Pandas</li>
+                </ul>
+                <a href="#" class="btn btn-sm" aria-label="View Road Accident Severity Prediction on GitHub (opens in new tab)" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              </footer>
+            </article>
+          </li>
+
+          <li class="project-full-card" data-category="web" role="listitem">
+            <article aria-labelledby="proj3-title">
+              <header class="pfc-header">
+                <div>
+                  <span class="pfc-tag">Web</span>
+                  <h3 id="proj3-title" class="pfc-title">Sports Regestration Portal</h3>
+                </div>
+                <span class="pfc-year" aria-label="Year: 2023">2025</span>
+              </header>
+              <p class="pfc-desc">University Sports Registration Portal is a front-end web application built using HTML, CSS, and JavaScript that allows students to register for sports events while providing an admin dashboard to manage registrations.</p>
+              <footer class="pfc-footer">
+                <ul class="pfc-stack" aria-label="Technologies used" role="list">
+                  <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                </ul>
+                <a href="#" class="btn btn-sm" aria-label="View Sports Registration Portal on GitHub (opens in new tab)" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              </footer>
+            </article>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-copy">© <time datetime="2024">2024</time> Pranith · SR University</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-nav" role="list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
